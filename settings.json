@@ -1,5 +1,20 @@
 {
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 800
+    }
+  },
+  "outline_panel": {
+    "file_icons": true,
+    "dock": "right"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "git_panel": {
+    "dock": "right",
     "collapse_untracked_diff": false
   },
   "show_whitespaces": "trailing",
@@ -8,7 +23,11 @@
       "enabled": false,
     },
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "theme": {
     "mode": "dark",
     "light": "One Light",
@@ -30,7 +49,8 @@
   "sticky_scroll": {
     "enabled": true,
   },
-  "collaboration_panel": { "button": false },
+  "collaboration_panel": { "dock": "left",
+                           "button": false },
   "auto_install_extensions": {
     "gotmpl": true,
   },
