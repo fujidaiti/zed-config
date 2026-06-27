@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# A few exceptions:
+!.gitignore
+!keymap.json
+!settings.json
+
