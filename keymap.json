@@ -92,4 +92,16 @@
       "ctrl-~": "workspace::NewTerminal",
     },
   },
+  {
+    "context": "Editor",
+    "unbind": {
+      "cmd-l": "editor::SelectLine",
+    },
+  },
+  {
+    "context": "Editor && (vim_mode == visual || selection)",
+    "bindings": {
+      "cmd-l": "editor::CopyFileLocation",
+    },
+  },
 ]
