@@ -21,6 +21,18 @@
     },
   },
   {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-t": "workspace::NewTerminal",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-t": "terminal_panel::Toggle",
+    },
+  },
+  {
     "context": "Workspace",
     "unbind": {
       "cmd-shift-t": "pane::ReopenClosedItem",
@@ -64,14 +76,20 @@
   },
   {
     "context": "Workspace",
-    "bindings": {
-      "cmd-shift-t": "terminal_panel::Toggle"
-    }
+    "unbind": {
+      "ctrl-`": "terminal_panel::Toggle",
+    },
   },
   {
     "context": "Workspace",
     "unbind": {
-      "ctrl-`": "terminal_panel::Toggle"
-    }
-  }
+      "cmd-t": "project_symbols::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-~": "workspace::NewTerminal",
+    },
+  },
 ]
