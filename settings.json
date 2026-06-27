@@ -1,0 +1,37 @@
+{
+  "git_panel": {
+    "collapse_untracked_diff": false
+  },
+  "show_whitespaces": "trailing",
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "icon_theme": "Zed (Default)",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "disable_ai": true,
+  "vim_mode": true,
+  "project_panel": {
+    "dock": "left",
+  },
+  "title_bar": {
+    "show_sign_in": false,
+    "show_user_menu": false,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "collaboration_panel": { "button": false },
+  "auto_install_extensions": {
+    "gotmpl": true,
+  },
+}
