@@ -1,21 +1,21 @@
 {
   "autosave": {
     "after_delay": {
-      "milliseconds": 800
-    }
+      "milliseconds": 800,
+    },
   },
   "outline_panel": {
     "file_icons": true,
-    "dock": "right"
+    "dock": "right",
   },
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "git_panel": {
     "dock": "right",
-    "collapse_untracked_diff": false
+    "collapse_untracked_diff": false,
   },
   "show_whitespaces": "trailing",
   "git": {
@@ -26,7 +26,7 @@
   "icon_theme": {
     "mode": "dark",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "dark": "Zed (Default)",
   },
   "theme": {
     "mode": "dark",
@@ -37,6 +37,7 @@
   "vim_mode": true,
   "project_panel": {
     "dock": "left",
+    "hide_gitignore": true,
   },
   "title_bar": {
     "show_sign_in": false,
@@ -49,8 +50,7 @@
   "sticky_scroll": {
     "enabled": true,
   },
-  "collaboration_panel": { "dock": "left",
-                           "button": false },
+  "collaboration_panel": { "dock": "left", "button": false },
   "auto_install_extensions": {
     "gotmpl": true,
   },
