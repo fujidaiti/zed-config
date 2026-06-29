@@ -1,4 +1,9 @@
 {
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
   "autosave": {
     "after_delay": {
       "milliseconds": 800,
