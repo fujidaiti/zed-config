@@ -1,5 +1,6 @@
 {
-  "auto_signature_help": true,
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": false,
   "diff_view_style": "unified",
   "cli_default_open_behavior": "new_window",
   "format_on_save": "on",
@@ -81,8 +82,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "One Dark",
+    "light": "GitHub Light Tritanopia",
+    "dark": "GitHub Dark Dimmed",
   },
   "disable_ai": true,
   "vim_mode": true,
