@@ -122,4 +122,28 @@
       "ctrl-shift-g": "git_panel::ToggleFocus",
     },
   },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "bindings": {
+      "ctrl-cmd-[": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "unbind": {
+      "ctrl-w ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "bindings": {
+      "ctrl-cmd-]": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "(VimControl && !menu) || (!Editor && !Terminal)",
+    "unbind": {
+      "ctrl-w ctrl-l": "workspace::ActivatePaneRight"
+    }
+  }
 ]
